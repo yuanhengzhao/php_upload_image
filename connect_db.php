@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "95847362jJ@246?";
+$username = "";
+$password = "";
 $database = 'upload_img';
 mysql_connect($servername,$username,$password);
 mysql_select_db($database);

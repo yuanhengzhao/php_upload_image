@@ -6,12 +6,12 @@ class upload{
 		print (!$uploaded) ? ' Cannot upload to ' :  'Image upload complete to ';
 	}
 }
-	$host = 'ftp.qigital.com';
-	$usr = 'realtor@qigital.com';
-	$pwd = 'N$FQz#zB7@ov+@*m';
+	$host = '';
+	$usr = '';
+	$pwd = '';
 	$servername = "localhost";
-	$username = "root";
-	$password = "95847362jJ@246?";
+	$username = "";
+	$password = "";
 	$database = 'upload_img';
 	mysql_connect($servername,$username,$password);
 	mysql_select_db($database);
