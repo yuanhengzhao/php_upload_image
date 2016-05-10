@@ -5,9 +5,9 @@ class upload{
 		print (!$uploaded) ? ' Cannot upload' :  ' Upload content success.';
 	}
 }
-	$host = 'ftp.qigital.com';
-	$usr = 'realtor@qigital.com';
-	$pwd = 'N$FQz#zB7@ov+@*m';
+	$host = '';
+	$usr = '';
+	$pwd = '';
 	$conn_id = ftp_connect($host, 21) or die ("Cannot connect to host");
 	$local_file = 'D:\test\test1.html';
 	$ftp_path = '/henry_test_folder/test1.html';
