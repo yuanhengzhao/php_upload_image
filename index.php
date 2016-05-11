@@ -5,6 +5,7 @@
 <div class = "container form-signin">
 	<?php
 		$msg = '';
+		# This is a test for github.
 		if (isset($_POST['login']) && !empty($_POST['username']) 
 			&& !empty($_POST['password'])) {
 			if ($_POST['username'] == 'test' && 
